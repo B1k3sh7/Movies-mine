@@ -1,0 +1,31 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #393e46;
+  color: white;
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+
+.pageTitle {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-size: 2vw;
+  font-weight: 600;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+  .app {
+    padding-top: 80px;
+  }
+
+  .pageTitle {
+    font-size: 3vw;
+  }
+}
